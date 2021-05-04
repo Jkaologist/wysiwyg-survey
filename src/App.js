@@ -1,21 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import AlloyEditor from "./AlloyEditor";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <AlloyEditor />
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="App-link"ßß
+          href="https://alloyeditor.com/docs/develop/about.html"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Alloy Docs!
         </a>
       </header>
     </div>
